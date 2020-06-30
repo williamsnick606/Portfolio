@@ -93,11 +93,12 @@ div.toolBarContainer a:hover {
 .mySkills
 {
 	display: grid;
-	grid-gap:10px;
-	grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+	grid-gap:10%;
+	grid-template-columns: 1fr 1fr;
 	font-size:100%;
 	background-color: #bde4f2;
 	border-radius: 0% 0% 0.5% 0.5%;
+	justify-content: center;
 }
 /*#93dbf5*/
 
