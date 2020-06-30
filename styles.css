@@ -1,14 +1,26 @@
-main
-{
-	/*min-width: 0;*/
-}
+/*
+Nicholas Williams
+FullStack Web Developer Portfolio
+Last edit: 6/30//2020 5pm
+*/
 
+/*Misc Stylings*/
 body
 {
 	background-color: #7eb2cc;
-	/*overflow-wrap: anywhere;*/
+}
+.centerText
+{
+	display: flex;
+	justify-content: center;
+	font-size:300%;
+
+	background-color: #bde4f2;
+	margin-top: 20px;
+	border-radius: 1% 1% 0% 0%;
 }
 
+/*Toolbar*/
 .toolBarContainer
 {
 	display: grid;
@@ -20,12 +32,7 @@ body
 	background-color: #43586b;
 	border-radius: 2%;
 	align-items: center;
-
-	/*#D1E8E2; old nice green color*/
-	/*#CCF0CB*/
-	/* */
 }
-
 div.toolBarContainer a
 {
 	text-decoration: none;
@@ -34,14 +41,12 @@ div.toolBarContainer a
 	border-radius: 5%;
 	text-align: center;
 }
-/* #D948AB*/
-
-div.toolBarContainer a:hover {
-  /*background-color: #b1e7fa;*/
-  color: #b02904;
+div.toolBarContainer a:hover
+{
+  color: #90d4ac;
 }
-/*#5EE274*/
 
+/*About Me*/
 .myInfo
 {
 	display: grid;
@@ -51,17 +56,12 @@ div.toolBarContainer a:hover {
 	font-size:150%;
 	background-color: #7eb2cc;
 }
-/*#B1A296*/
-/*#bde4f2*/
-
 #myName
 {
 	color: #b02904;
 	font-weight: 800;
 	font-size:110%;
 }
-
-
 #mySelfie
 {
 	width:80%;
@@ -70,26 +70,7 @@ div.toolBarContainer a:hover {
 	padding-bottom: 15px;
 }
 
-
-.centerText
-{
-	display: flex;
-	justify-content: center;
-	font-size:300%;
-
-	background-color: #bde4f2;
-	margin-top: 20px;
-	border-radius: 1% 1% 0% 0%;
-
-
-*/
-}
-/*#3973ac*/
-
-/*#bde4f2*/
-
-
-
+/*Skills*/
 .mySkills
 {
 	display: grid;
@@ -99,36 +80,23 @@ div.toolBarContainer a:hover {
 	background-color: #bde4f2;
 	border-radius: 0% 0% 0.5% 0.5%;
 }
-
-/*#93dbf5*/
-
-/*#bde4f2*/
-
-.mySkills li
-{
-	margin-left:20%;
-}
-
-
 .centerSkills
 {
 	font-size:150%;
-	text-align: left;
-	padding-left: 22%;
+	text-align: center;
+	padding-left: 15px;
 }
 
-/* Stlying for my social links */
+/*Social Links*/
 .socials
 {
 }
-
 div.socials img
 {
 	width:4%;
 	height:4%;
 	padding-top:2%;
 }
-
 div.socials span
 {
 	font-size: 75%;
@@ -137,32 +105,31 @@ div.socials span
 	padding-bottom: 3%;
 	display: inline-block;
 }
-
 div.socials a
 {
 	text-decoration: none;
+	color: #345154;
 }
-
+div.socials a:hover
+{
+	color: #94e9f2;
+}
 #resumeIcon
 {
 	width:3.8%;
 	height: 1%;
-
 	border-radius: 35% 35% 10% 10%;
 }
 
+/*Projects*/
 .projectList
 {
 	display: grid;
 	grid-template-rows: repeat(auto-fill,minmax(500px,1fr));
 	background-color: #bde4f2;
 	justify-content: center;
-	/*padding: 2% 0.1%;*/
 	border-radius: 0% 0% 0.5% 0.5%;
 }
-/*orange*/
-/*#b1e7fa*/
-
 .projectBox
 {
 	display: grid;
@@ -174,23 +141,18 @@ div.socials a
 	margin-bottom: 2.5%;
 	margin-left:5%;
 }
-/*pink*/
-
 .projectBox img
 {
 	width:80%;
 	padding: 10%;
 	padding-bottom: 0%;
 }
-
 .projectTitle
 {
 	font-size:200%;
 	text-decoration-color: red;
 	text-align:center;
 }
-/*red*/
-
 .projectDescription
 {
 	font-size:125%;
@@ -198,14 +160,9 @@ div.socials a
 	text-decoration-color: #b1e7fa;
 	text-align:left;
 }
-/*purple*/
-
-/*Styling for my link to github code and live demo under projects*/
 .projectLinks
 {
 }
-
-
 div.projectLinks span
 {
 	font-size: 100%;
@@ -214,11 +171,19 @@ div.projectLinks span
 	align-content: center;
 	padding-left: 2%;
 }
-
 div.projectLinks img
 {
 	width:4%;
 	height:4%;
+}
+div.projectLinks a
+{
+	text-decoration: none;
+	color: #574603;
+}
+div.projectLinks a:hover
+{
+  color: #b02904;
 }
 
 /* I'M REALLY STUCK ON THE PROJECT LINKS, I CAN'T GET THEM TO GO WHERE I WANT :( */
