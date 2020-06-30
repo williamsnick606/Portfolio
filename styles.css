@@ -6,6 +6,7 @@ main
 body
 {
 	background-color: #7eb2cc;
+	overflow-wrap: anywhere;
 }
 
 .toolBarContainer
@@ -18,6 +19,7 @@ body
 	padding:0.3%;
 	background-color: #43586b;
 	border-radius: 2%;
+	align-self: center;
 
 	/*#D1E8E2; old nice green color*/
 	/*#CCF0CB*/
