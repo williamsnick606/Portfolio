@@ -6,7 +6,7 @@ main
 body
 {
 	background-color: #7eb2cc;
-	overflow-wrap: anywhere;
+	/*overflow-wrap: anywhere;*/
 }
 
 .toolBarContainer
