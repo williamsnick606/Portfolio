@@ -7,4 +7,4 @@ List of Known Issues to fix
 4. More consistent colors when hovering over an achor link should be applied.
 5. More sophisticated/polished color scheme in general needed.
 6. blog.html needes some styling work done to it
-7. Reorganize the files into Styles, HTML, Images, Javascript, etc professional looking folder structure.
+7. Reorganize the files into CSS, HTML, Images, Javascript, etc professional looking folder structure.
