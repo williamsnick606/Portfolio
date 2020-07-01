@@ -1,6 +1,6 @@
 # Nicholas Williams
 
 
-Personal Web Dev portfolio
+Personal Web Dev Portfolio
 
 HTML and CSS Grid
