@@ -1,0 +1,10 @@
+List of Known Issues to fix
+
+1. Github, Linkedin, and Resume links become too small when on a smartphone so make them bigger
+2. Photo becomes rather small on a smartphone and maybe has too much whitespace
+3. In the projects section the Github and Live website links and associated images are too
+   far apart.
+4. More consistent colors when hovering over an achor link should be applied.
+5. More sophisticated/polished color scheme in general needed.
+6. blog.html needes some styling work done to it
+7. Reorganize the files into Styles, HTML, Images, Javascript, etc professional looking folder structure.
