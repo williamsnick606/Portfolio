@@ -10,3 +10,4 @@ List of Known Issues to fix
 7. Reorganize the files into CSS, HTML, Images, Javascript, etc professional looking folder structure.
 8. Make the toolbar stay at the top when scrolling
 9. Make the current section of your page highlight the inpage links in the toolbar
+10. Div under the <!-- Image of project --> comments, do they really need to be there?
